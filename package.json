@@ -30,14 +30,16 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ailisp/strict-paredit-vscode"
+        "url": "https://github.com/hunkyjimpjorps/racket-paredit-vscode"
     },
     "activationEvents": [
         "onLanguage:commonlisp",
         "onLanguage:clojure",
         "onLanguage:lisp",
         "onLanguage:scheme",
-        "onLanguage:racket"
+        "onLanguage:racket",
+        "onLanguage:lfe",
+        "onLanguage:wasm"
     ],
     "main": "./out/src/extension",
     "contributes": {
