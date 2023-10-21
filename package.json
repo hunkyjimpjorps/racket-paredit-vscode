@@ -1,13 +1,13 @@
 {
-    "name": "strict-paredit",
-    "displayName": "Strict Paredit",
+    "name": "strict-paredit-more",
+    "displayName": "Strict Paredit for More Languages",
     "description": "Classic strict paredit: structural editing and navigation",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "icon": "assets/paredit.png",
-    "publisher": "ailisp",
+    "publisher": "jimpjorps",
     "license": "MIT",
     "engines": {
-        "vscode": "^1.20.0"
+        "vscode": "^1.83.0"
     },
     "categories": [
         "Programming Languages",
@@ -20,6 +20,7 @@
         "lisp",
         "scheme",
         "racket",
+        "lfe",
         "brackets",
         "paredit"
     ],
@@ -36,34 +37,7 @@
         "onLanguage:clojure",
         "onLanguage:lisp",
         "onLanguage:scheme",
-        "onLanguage:racket",
-        "onCommand:paredit.openList",
-        "onCommand:paredit.forwardSexp",
-        "onCommand:paredit.backwardSexp",
-        "onCommand:paredit.forwardDownSexp",
-        "onCommand:paredit.backwardUpSexp",
-        "onCommand:paredit.sexpRangeExpansion",
-        "onCommand:paredit.sexpRangeContracrion",
-        "onCommand:paredit.closeList",
-        "onCommand:paredit.closeList2",
-        "onCommand:paredit.rangeForDefun",
-        "onCommand:paredit.slurpSexpForward",
-        "onCommand:paredit.slurpSexpBackward",
-        "onCommand:paredit.barfSexpForward",
-        "onCommand:paredit.barfSexpBackward",
-        "onCommand:paredit.spliceSexp",
-        "onCommand:paredit.splitSexp",
-        "onCommand:paredit.killSexpForward",
-        "onCommand:paredit.killSexpBackward",
-        "onCommand:paredit.spliceSexpKillForward",
-        "onCommand:paredit.spliceSexpKillBackward",
-        "onCommand:paredit.deleteForward",
-        "onCommand:paredit.deleteBackward",
-        "onCommand:paredit.wrapAroundParens",
-        "onCommand:paredit.wrapAroundSquare",
-        "onCommand:paredit.wrapAroundCurly",
-        "onCommand:paredit.indentRange",
-        "onCommand:paredit.transpose"
+        "onLanguage:racket"
     ],
     "main": "./out/src/extension",
     "contributes": {
@@ -527,9 +501,9 @@
     },
     "devDependencies": {
         "@types/mocha": "^5.2.5",
-        "@types/node": "^10.11.5",
+        "@types/node": "^10.17.60",
         "mocha": "^5.2.0",
-        "typescript": "^3.1.1",
-        "vscode": "^1.1.18"
+        "typescript": "^5.0.0",
+        "@types/vscode": "^1.83.0"
     }
 }

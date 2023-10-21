@@ -1,6 +1,6 @@
-# Strict Paredit
+# Strict Paredit for More Languages
 
-Classic, Emacs Paredit-like Structural editing and navigation for Common Lisp, Clojure and Scheme.
+Classic, Emacs Paredit-like Structural editing and navigation for Common Lisp, Clojure, Scheme, Racket and Lisp-Flavored Erlang.
 
 <p align="center">
 <a href="https://marketplace.visualstudio.com/items?itemName=ailisp.strict-paredit"><img width="128px" height="128px" src="https://github.com/ailisp/strict-paredit-vscode/raw/master/assets/paredit.png" title="Paredit icon"></img></a>
@@ -92,8 +92,5 @@ ctrl+alt+x ctrl+alt+right     | Cut Close List
 
 This project is forked from https://github.com/BetterThanTomorrow/calva-paredit. Original one is maintained by author Peter Strömberg as part of project calva, https://github.com/BetterThanTomorrow/calva
 
-I maintain this fork with the following stress:
-- Tweak to keep the joy of original Emacs paredit, especially how delete, back parens and navigation works.
-- Make it useful for Common Lisp and Scheme developers (Assume there's no one use vscode to code Emacs Lisp :)
-
+I made this fork to add support for Racket.  If you've got a S-expression based language that you'd like support for, feel free to ask.
 
