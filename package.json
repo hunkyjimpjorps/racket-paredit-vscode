@@ -2,7 +2,7 @@
     "name": "strict-paredit-more",
     "displayName": "Strict Paredit for More Languages",
     "description": "Classic strict paredit: structural editing and navigation",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "icon": "assets/paredit.png",
     "publisher": "jimpjorps",
     "license": "MIT",
@@ -20,6 +20,7 @@
         "lisp",
         "scheme",
         "racket",
+        "hy",
         "lfe",
         "brackets",
         "paredit"
@@ -39,7 +40,8 @@
         "onLanguage:scheme",
         "onLanguage:racket",
         "onLanguage:lfe",
-        "onLanguage:wasm"
+        "onLanguage:wasm",
+	"onLanguage:hy"
     ],
     "main": "./out/src/extension",
     "contributes": {
