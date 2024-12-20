@@ -1,3 +1,7 @@
+## 0.3.0 - 0.3.4
+Features:
+- Forked to add more supported languages
+
 ## 0.2.0
 Features:
 - fork rename to "strict paredit"
